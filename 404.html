@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redirecting...</title>
+    <script>
+      const repoName = "/PortFolio";
+      const path = window.location.pathname;
+      if (path.startsWith(repoName)) {
+        window.location.href = path;
+      } else {
+        window.location.href = repoName + path;
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
