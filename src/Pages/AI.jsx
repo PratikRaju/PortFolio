@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function ai() {
+export default function AI() {
   return (
-    <div>ai</div>
+    <div>AI</div>
   )
 }
